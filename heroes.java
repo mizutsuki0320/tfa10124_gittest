@@ -24,11 +24,11 @@ public class heroes {
 }
 
 interface IAttackSkills {
-	void attack();
+	void defend();
 }
 
 interface IDefendSkills {
-	void defend();
+	void attack();
 }
 
 interface IMoveSkills {
