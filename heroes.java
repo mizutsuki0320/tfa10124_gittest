@@ -24,7 +24,7 @@ public class heroes {
 }
 
 interface IAttackSkills {
-	void move();
+	void attack();
 }
 
 interface IDefendSkills {
@@ -32,7 +32,7 @@ interface IDefendSkills {
 }
 
 interface IMoveSkills {
-	void attack();
+	void move();
 }
 
 class SwordAttack implements IAttackSkills {
